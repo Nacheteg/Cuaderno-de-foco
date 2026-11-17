@@ -1,0 +1,25 @@
+{
+  "name": "Cuaderno de Foco",
+  "short_name": "Cuaderno",
+  "description": "Plan de estudio semanal según tus créditos, temporizador contra la procrastinación y reels de estudio. Funciona sin internet.",
+  "lang": "es",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#FFF3EE",
+  "theme_color": "#E4572E",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Hoy", "url": "./index.html#hoy", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Enfoque", "url": "./index.html#enfoque", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Reels de estudio", "url": "./index.html#reels", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
